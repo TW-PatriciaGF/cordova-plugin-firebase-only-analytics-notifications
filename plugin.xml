@@ -59,11 +59,11 @@
     </config-file>
     
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
-      <meta-data android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="@string/default_notification_channel_id"/>
-    </config-file>
-
-    <meta-data
-  android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@mipmap/ic_stat_ic_notification" />
+      <meta-data 
+                 android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="@string/default_notification_channel_id"/>
+       <meta-data
+                android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@mipmap/ic_launcher" />
+    </config-file>   
     
     <resource-file src="google-services.json" target="./google-services.json" />
     <resource-file src="src/android/cordova-plugin-firebase-strings.xml" target="res/values/cordova-plugin-firebase-strings.xml" />
