@@ -64,9 +64,6 @@
        <meta-data
                 android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@mipmap/ic_launcher" />
       
-      <meta-data
-                android:name="com.google.firebase.messaging.default_notification_color"  android:resource="@color/petrol" />
-      
     </config-file>   
     
     <resource-file src="google-services.json" target="./google-services.json" />
